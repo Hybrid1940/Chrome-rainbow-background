@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Productivity lad",
+  "description": "A suite of productivity tools",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/SampleLogo.png",
+      "32": "/images/SampleLogo.png",
+      "48": "/images/SampleLogo.png",
+      "128": "/images/SampleLogo.png"
+    }
+  },
+  "icons": {
+    "16": "/images/SampleLogo.png",
+    "32": "/images/SampleLogo.png",
+    "48": "/images/SampleLogo.png",
+    "128": "/images/SampleLogo.png"
+  }
+}

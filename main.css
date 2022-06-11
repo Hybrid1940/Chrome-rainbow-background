@@ -1,0 +1,29 @@
+button {
+  height: 40px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 2px;
+}
+#red{
+  background-color: #ff0000;
+}
+#orange{
+  background-color: #ffa500;
+}
+#yellow{
+  background-color: #ffff00;
+}
+#green{
+  background-color: #008000;
+}
+#blue{
+  background-color: #0000ff;
+}
+#purple{
+  background-color: #800080;
+}
+
+button.current {
+    box-shadow: 0 0 0 2px white,
+                0 0 0 4px black;
+}
