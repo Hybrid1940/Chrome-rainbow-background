@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Productivity lad",
-  "description": "A suite of productivity tools",
+  "name": "Rainbow Background",
+  "description": "A simple program to change the backgrond of a chrome google search",
   "version": "1.0",
   "background": {
     "service_worker": "background.js"
